@@ -1,0 +1,19 @@
+openapi: "3.0.3"
+info:
+  title: Invalid API
+paths:
+  items:
+    get:
+      operationId: listItems
+      operationIdDupe: listItems
+      responses: {}
+  /also:
+    get:
+      operationId: listItems
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Missing"
