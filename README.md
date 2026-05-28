@@ -3,7 +3,7 @@
 > **OpenAPI diff & lint CLI** — detect breaking changes locally and in CI.  
 > The actively-maintained alternative to the now-archived Optic CLI.
 
-[![CI](https://github.com/Misterthomas/ApiNotes_diff_cli_main/actions/workflows/ci.yml/badge.svg)](https://github.com/Misterthomas/ApiNotes_diff_cli_main/actions/workflows/ci.yml)
+[![CI](https://github.com/Apinotes/cli-diff/actions/workflows/ci.yml/badge.svg)](https://github.com/Apinotes/cli-diff/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Website:** https://apinotes.io/openapi-diff
@@ -257,7 +257,7 @@ This hook is reserved for future paid-tier features (hosted history, AI-powered 
 ## Development
 
 ```bash
-git clone https://github.com/Misterthomas/ApiNotes_diff_cli_main.git
+git clone https://github.com/Apinotes/cli-diff.git
 cd ApiNotes_diff_cli_main
 npm install
 npm test
@@ -275,4 +275,4 @@ node bin/apinotes.js diff test/fixtures/v1.yaml test/fixtures/v2.yaml
 ## Links
 
 - Web tool: https://apinotes.io/openapi-diff
-- Issues: https://github.com/Misterthomas/ApiNotes_diff_cli_main/issues
+- Issues: https://github.com/Apinotes/cli-diff/issues
