@@ -275,4 +275,4 @@ node bin/apinotes.js diff test/fixtures/v1.yaml test/fixtures/v2.yaml
 ## Links
 
 - Web tool: https://apinotes.io/openapi-diff
-- Issues: https://github.com/Misterthomas/ApiNotes_diff_cli_main/issues
+- Issues: [https://github.com/Misterthomas/ApiNotes_diff_cli_main/issues](https://github.com/Apinotes/cli-diff/issues)
